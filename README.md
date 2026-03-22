@@ -1,6 +1,6 @@
 ﻿# Product_API
 
-uv init
-uv add fastapi "uvicorn[standard]" sqlalchemy psycopg2-binary pydantic
-uv run setup_db.py
-uv run uvicorn main:app --reload
+uv init <br>
+uv add fastapi "uvicorn[standard]" sqlalchemy psycopg2-binary pydantic <br>
+uv run setup_db.py <br>
+uv run uvicorn main:app --reload<br>
